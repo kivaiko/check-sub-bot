@@ -1,13 +1,12 @@
-import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.types import message
 from aiogram.utils import executor
 from aiogram.utils.callback_data import CallbackData
-from config import TOKEN
+from decouple import config
 from groups import directions, channels_groups
 
+TOKEN = config('TOKEN')
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN, parse_mode="HTML")
 
@@ -47,7 +46,7 @@ def channels_keyboard(group):
 
 
 def success_keyboard():
-    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://www.google.com/')
+    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://goo.su/5mnBsv')
     back_btn = InlineKeyboardButton(text='🔙 Назад', callback_data='back')
     inline_kb = InlineKeyboardMarkup(resize_keyboard=True).add(inline_btn_1).add(back_btn)
     return inline_kb
@@ -56,7 +55,7 @@ def success_keyboard():
 # Шаг 1. Старт
 @dp.message_handler(commands=['start'])
 async def cmd_start(message: types.Message):
-    await message.answer('Привет! Я бот, который выдаст доступ к сайту easyoffer'
+    await message.answer('Привет! Я бот, который выдаст доступ к сайту 👾 easyoffer'
                          '\nКакое направление тебе интересно?', reply_markup=welcome_keyboard())
 
 
@@ -74,33 +73,33 @@ async def show_channels(callback: types.CallbackQuery, callback_data: dict):
     channels_number = len(channels_groups[group])
     if channels_number == 1:
         await callback.message.edit_text(
-            f'Получи доступ к EasyOffer, подписавшись на наши каналы:\n\n'
-            f'👉 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
+            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 2:
         await callback.message.edit_text(
-            f'Получи доступ к EasyOffer, подписавшись на наши каналы:\n\n'
-            f'👉 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
+            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 3:
         await callback.message.edit_text(
-            f'Получи доступ к EasyOffer, подписавшись на наши каналы:\n\n'
-            f'👉 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
+            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 4:
         await callback.message.edit_text(
-            f'Получи доступ к EasyOffer, подписавшись на наши каналы:\n\n'
-            f'👉 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
-            f'👉 <a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
+            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'👾 <a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
 
 
@@ -116,13 +115,18 @@ async def check_channels(callback: types.CallbackQuery, callback_data: dict):
     await callback.answer()
 
 
+# Проверка подписки
 async def check_sub(group, user_id):
+    chat_member = await bot.get_chat_member(chat_id='@easyoffer_ru', user_id=user_id)
+    if chat_member['status'] == 'left':
+        return False
     for channel in channels_groups[group]:
         chat_member = await bot.get_chat_member(chat_id=f'@{channel[1]}', user_id=user_id)
         if chat_member['status'] == 'left':
             return False
     else:
         return True
+
 
 
 # Вернуться назад

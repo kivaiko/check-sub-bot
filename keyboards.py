@@ -29,6 +29,6 @@ def channels_keyboard():
 
 
 def success_keyboard():
-    inline_btn_1 = InlineKeyboardButton('Получить доступ', url='https://www.google.com/')
+    inline_btn_1 = InlineKeyboardButton('Получить доступ', url='https://goo.su/5mnBsv')
     inline_kb = InlineKeyboardMarkup(resize_keyboard=True).add(inline_btn_1)
     return inline_kb
