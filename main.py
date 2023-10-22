@@ -46,7 +46,7 @@ def channels_keyboard(group):
 
 
 def success_keyboard():
-    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://goo.su/5mnBsv')
+    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://goo.su/8vBNUy')
     back_btn = InlineKeyboardButton(text='🔙 Назад', callback_data='back')
     inline_kb = InlineKeyboardMarkup(resize_keyboard=True).add(inline_btn_1).add(back_btn)
     return inline_kb
