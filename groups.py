@@ -118,8 +118,7 @@ channels_groups = {
     'Node.js': [
         ['Backend', 'easy_backend'],
         ['Node.js', 'easy_node_js'],
-        ['JavaScript', 'easy_javascript_ru'],
-        ['TypeScript', 'easy_typescript'],
+        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'Java': [
         ['Backend', 'easy_backend'],
@@ -151,22 +150,19 @@ channels_groups = {
     ],
     'React': [
         ['React', 'easy_react'],
-        ['JavaScript', 'easy_javascript_ru'],
-        ['TypeScript', 'easy_typescript'],
+        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'Vue': [
         ['Vue', 'easy_vue_ru'],
-        ['JavaScript', 'easy_javascript_ru'],
-        ['TypeScript', 'easy_typescript'],
+        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'Angular': [
         ['Angular', 'easy_angular'],
-        ['JavaScript', 'easy_javascript_ru'],
-        ['TypeScript', 'easy_typescript'],
+        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'HTML/CSS': [
         ['HTML', 'easy_html'],
-        ['JavaScript', 'easy_javascript_ru'],
+        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'Flutter': [
         ['Flutter', 'easy_flutter_ru'],
