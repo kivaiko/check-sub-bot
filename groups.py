@@ -110,27 +110,36 @@ channels_groups = {
     'Python': [
         ['Backend', 'easy_backend'],
         ['Python', 'python_easy_ru'],
+        ['Python | Тренды', 'python_trends'],
+        ['Python | Удалёнка', 'easy_python_job'],
     ],
     'PHP': [
         ['Backend', 'easy_backend'],
         ['PHP', 'easy_php_ru'],
+        ['PHP | Тренды', 'php_trends'],
+        ['PHP | Удалёнка', 'easy_php_job'],
     ],
     'Node.js': [
         ['Backend', 'easy_backend'],
         ['Node.js', 'easy_node_js'],
-        ['JavaScript | TypeScript', 'easy_javascript_ru'],
     ],
     'Java': [
         ['Backend', 'easy_backend'],
         ['Java', 'easy_java_ru'],
+        ['Java | Тренды', 'java_trends'],
+        ['Java | Удалёнка', 'easy_java_job'],
     ],
     'C/C++': [
         ['Backend', 'easy_backend'],
         ['C/C++', 'easy_c_plus'],
+        ['C/C++ | Тренды', 'cplus_trends'],
+        ['C/C++ | Удалёнка', 'easy_cplus_job'],
     ],
     'Golang': [
         ['Backend', 'easy_backend'],
         ['Golang', 'easy_golang'],
+        ['Golang | Тренды', 'golang_trends'],
+        ['Golang | Удалёнка', 'easy_golang_job'],
     ],
     'Ruby': [
         ['Backend', 'easy_backend'],
@@ -147,31 +156,41 @@ channels_groups = {
     'C#': [
         ['Backend', 'easy_backend'],
         ['C#', 'easy_c_sharp'],
+        ['C# | Тренды', 'csharp_trends'],
+        ['C# | Удалёнка', 'easy_csharp_job'],
     ],
     'React': [
-        ['React', 'easy_react'],
-        ['JavaScript | TypeScript', 'easy_javascript_ru'],
+        ['Frontend', 'easy_javascript_ru'],
+        ['Frontend | Тренды', 'easy_frontend_trends'],
+        ['Frontend | Удалёнка', 'easy_frontend_jobs'],
     ],
     'Vue': [
-        ['Vue', 'easy_vue_ru'],
-        ['JavaScript | TypeScript', 'easy_javascript_ru'],
+        ['Frontend', 'easy_javascript_ru'],
+        ['Frontend | Тренды', 'easy_frontend_trends'],
+        ['Frontend | Удалёнка', 'easy_frontend_jobs'],
     ],
     'Angular': [
-        ['Angular', 'easy_angular'],
-        ['JavaScript | TypeScript', 'easy_javascript_ru'],
+        ['Frontend', 'easy_javascript_ru'],
+        ['Frontend | Тренды', 'easy_frontend_trends'],
+        ['Frontend | Удалёнка', 'easy_frontend_jobs'],
     ],
     'HTML/CSS': [
-        ['HTML', 'easy_html'],
-        ['JavaScript | TypeScript', 'easy_javascript_ru'],
+        ['Frontend', 'easy_javascript_ru'],
+        ['Frontend | Тренды', 'easy_frontend_trends'],
+        ['Frontend | Удалёнка', 'easy_frontend_jobs'],
     ],
     'Flutter': [
         ['Flutter', 'easy_flutter_ru'],
     ],
     'Kotlin': [
         ['Kotlin', 'easy_kotlin'],
+        ['Kotlin | Тренды', 'kotlin_trends'],
+        ['Kotlin | Удалёнка', 'easy_kotlin_job'],
     ],
     'Swift': [
         ['Swift', 'easy_swift'],
+        ['Swift | Тренды', 'swift_trends'],
+        ['Swift | Удалёнка', 'easy_swift_job'],
     ],
     'Unity': [
         ['Unity', 'easy_unity_ru'],
@@ -183,23 +202,27 @@ channels_groups = {
     ],
     'Machin Learning': [
         ['Data Science', 'easy_ds'],
+        ['Data Science | Тренды', 'ds_trends'],
+        ['Data Science | Удалёнка', 'easy_ds_job'],
         ['Machin Learning', 'easy_machin_learning'],
-        ['Python', 'python_easy_ru'],
     ],
     'Data Engineer': [
         ['Data Science', 'easy_ds'],
+        ['Data Science | Тренды', 'ds_trends'],
+        ['Data Science | Удалёнка', 'easy_ds_job'],
         ['Data Engineer', 'easy_data_engineer'],
-        ['Python', 'python_easy_ru'],
     ],
     'Product Analyst': [
         ['Data Science', 'easy_ds'],
+        ['Data Science | Тренды', 'ds_trends'],
+        ['Data Science | Удалёнка', 'easy_ds_job'],
         ['Product Analyst', 'easy_product_analyst'],
-        ['Python', 'python_easy_ru'],
     ],
     'Data Analyst': [
         ['Data Science', 'easy_ds'],
+        ['Data Science | Тренды', 'ds_trends'],
+        ['Data Science | Удалёнка', 'easy_ds_job'],
         ['Data Analyst', 'easy_data_analyst'],
-        ['Python', 'python_easy_ru'],
     ],
     'System Analyst': [
         ['System Analyst', 'easy_system_analyst'],
@@ -208,16 +231,19 @@ channels_groups = {
         ['Business Analyst', 'easy_business_analyst_ru'],
     ],
     'Auto(Python)': [
-        ['QA', 'easy_qa_ru'],
-        ['Python', 'python_easy_ru'],
+        ['Тестировщик', 'easy_qa_ru'],
+        ['Тестировщик | Тренды', 'qa_trends'],
+        ['Тестировщик | Удалёнка', 'easy_qa_jobs'],
     ],
     'Auto(Java)': [
-        ['QA', 'easy_qa_ru'],
-        ['Java', 'easy_java_ru'],
+        ['Тестировщик', 'easy_qa_ru'],
+        ['Тестировщик | Тренды', 'qa_trends'],
+        ['Тестировщик | Удалёнка', 'easy_qa_jobs'],
     ],
     'Ручное': [
-        ['QA', 'easy_qa_ru'],
-        ['Manual QA', 'easy_manual_QA_ru'],
+        ['Тестировщик', 'easy_qa_ru'],
+        ['Тестировщик | Тренды', 'qa_trends'],
+        ['Тестировщик | Удалёнка', 'easy_qa_jobs'],
     ],
     'Product Manager': [
         ['Product Manager', 'easy_product_manager'],
@@ -268,7 +294,9 @@ channels_groups = {
         ['HR', 'easy_human_resources'],
     ],
     'Devops': [
-        ['Devops', 'easy_devops'],
+        ['DevOps', 'easy_devops'],
+        ['DevOps | Тренды', 'devops_trends'],
+        ['DevOps | Удалёнка', 'easy_devops_job'],
     ],
     'System Admin': [
         ['System Admin', 'easy_system_admin'],
