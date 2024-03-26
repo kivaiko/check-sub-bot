@@ -46,7 +46,7 @@ def channels_keyboard(group):
 
 
 def success_keyboard():
-    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://easyoffer.ru/Jljo0U9Erg7QDtkb133G7vzDexHVw6Iz')
+    inline_btn_1 = InlineKeyboardButton('Получить доступ 🔑', url='https://easyoffer.ru/NDTOIzOclYmcKzvzWAJVlYmcKzvOclDTO')
     back_btn = InlineKeyboardButton(text='🔙 Назад', callback_data='back')
     inline_kb = InlineKeyboardMarkup(resize_keyboard=True).add(inline_btn_1).add(back_btn)
     return inline_kb
@@ -73,33 +73,66 @@ async def show_channels(callback: types.CallbackQuery, callback_data: dict):
     channels_number = len(channels_groups[group])
     if channels_number == 1:
         await callback.message.edit_text(
-            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
-            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 2:
         await callback.message.edit_text(
-            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
-            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 3:
         await callback.message.edit_text(
-            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
-            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
     if channels_number == 4:
         await callback.message.edit_text(
-            f'Получи доступ к 👾 easyoffer, подписавшись на наши каналы:\n\n'
-            f'👾 <a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
-            f'👾 <a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
+    if channels_number == 5:
+        await callback.message.edit_text(
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][4][1]}">{channels_groups[group][4][0]}</a>\n'
+            , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
+    if channels_number == 6:
+        await callback.message.edit_text(
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][4][1]}">{channels_groups[group][4][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][5][1]}">{channels_groups[group][5][0]}</a>\n'
+            , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
+    if channels_number == 7:
+        await callback.message.edit_text(
+            f'Получи доступ к easyoffer, подписавшись на наши каналы:\n\n'
+            f'<a href="https://t.me/easyoffer_ru">easyoffer</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][0][1]}">{channels_groups[group][0][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][1][1]}">{channels_groups[group][1][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][2][1]}">{channels_groups[group][2][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][3][1]}">{channels_groups[group][3][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][4][1]}">{channels_groups[group][4][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][5][1]}">{channels_groups[group][5][0]}</a>\n'
+            f'<a href="https://t.me/{channels_groups[group][6][1]}">{channels_groups[group][6][0]}</a>\n'
             , reply_markup=channels_keyboard(group), parse_mode="HTML", disable_web_page_preview=True)
 
 
