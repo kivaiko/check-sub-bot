@@ -104,6 +104,7 @@ channels_groups = {
     'Node.js': [
         ['Backend', 'easy_backend'],
         ['Node.js', 'easy_node_js'],
+        ['Node.js | Удалёнка', 'easy_node_js_job'],
     ],
     'Java': [
         ['Backend', 'easy_backend'],
@@ -140,6 +141,7 @@ channels_groups = {
     '1C': [
         ['Backend', 'easy_backend'],
         ['1C', 'ru_1c_easy'],
+        ['1C | Удалёнка', 'easy_1c_job'],
     ],
     'C#': [
         ['Backend', 'easy_backend'],
@@ -179,6 +181,7 @@ channels_groups = {
     ],
     'Flutter': [
         ['Flutter | Вопросы собесов', 'easy_flutter_ru'],
+        ['Futter | Удалёнка', 'easy_flutter_job'],
     ],
     'Kotlin': [
         ['Kotlin | Вопросы собесов', 'easy_kotlin'],
@@ -196,10 +199,12 @@ channels_groups = {
     ],
     'Unity': [
         ['Unity', 'easy_unity_ru'],
+        ['Unity | Удалёнка', 'easy_unity_job'],
         ['C#', 'easy_c_sharp'],
     ],
     'Unreal Engine': [
         ['Unreal Engine', 'easy_unreal_engine'],
+        ['Unreal Engine | Удалёнка', 'easy_unreal_job'],
         ['C/C++', 'easy_c_plus'],
     ],
     'Machin Learning': [
@@ -263,18 +268,23 @@ channels_groups = {
     ],
     'Product Manager': [
         ['Product Manager', 'easy_product_manager'],
+        ['Product Manager | Удалёнка', 'easy_product_m_job'],
     ],
     'Project Manager': [
         ['Project Manager', 'easy_project_manager'],
+        ['Project Manager | Удалёнка', 'easy_project_m_job'],
     ],
     'Product Designer': [
         ['Product Designer', 'easy_product_designer'],
+        ['Product Designer | Удалёнка', 'easy_product_designer_job'],
     ],
     'UX/UI Designer': [
         ['UX/UI Designer', 'easy_UX_UI'],
+        ['UX/UI Designer | Удалёнка', 'easy_ux_ui_job'],
     ],
     'HR': [
         ['HR', 'easy_human_resources'],
+        ['HR | Удалёнка', 'easy_hr_job'],
     ],
     'Devops': [
         ['DevOps | Вопросы собесов', 'easy_devops'],
