@@ -88,7 +88,7 @@ channels_groups = {
     'Python': [
         ['Backend', 'easy_backend'],
         ['Python | Вопросы собесов', 'python_easy_ru'],
-        ['Python | Мемес', 'easy_python_memes'],
+        ['Python | Classroom', 'easy_python_memes'],
         ['Python | Удалёнка', 'easy_python_job'],
         ['Python | Задачи', 'easy_python_task'],
         ['Python | Тестовые задания', 'easy_python_tests'],
@@ -113,7 +113,7 @@ channels_groups = {
     'Java': [
         ['Backend', 'easy_backend'],
         ['Java | Вопросы собесов', 'easy_java_ru'],
-        ['Java | Мемес', 'easy_java_memes'],
+        ['Java | Classroom', 'easy_java_memes'],
         ['Java | Удалёнка', 'easy_java_job'],
         ['Java | Задачи', 'easy_java_task'],
         ['Java | Тестовые задания', 'easy_java_tests'],
@@ -167,7 +167,7 @@ channels_groups = {
     ],
     'React': [
         ['Frontend | Вопросы собесов', 'easy_javascript_ru'],
-        ['Frontend | Мемес', 'easy_frontend_memes'],
+        ['Frontend | Classroom', 'easy_frontend_memes'],
         ['Frontend | Удалёнка', 'easy_frontend_jobs'],
         ['Frontend | Задачи', 'easy_frontend_task'],
         ['Frontend | Тестовые задания', 'easy_frontend_tests'],
@@ -175,7 +175,7 @@ channels_groups = {
     ],
     'Vue': [
         ['Frontend | Вопросы собесов', 'easy_javascript_ru'],
-        ['Frontend | Мемес', 'easy_frontend_memes'],
+        ['Frontend | Classroom', 'easy_frontend_memes'],
         ['Frontend | Удалёнка', 'easy_frontend_jobs'],
         ['Frontend | Задачи', 'easy_frontend_task'],
         ['Frontend | Тестовые задания', 'easy_frontend_tests'],
@@ -183,7 +183,7 @@ channels_groups = {
     ],
     'Angular': [
         ['Frontend | Вопросы собесов', 'easy_javascript_ru'],
-        ['Frontend | Мемес', 'easy_frontend_memes'],
+        ['Frontend | Classroom', 'easy_frontend_memes'],
         ['Frontend | Удалёнка', 'easy_frontend_jobs'],
         ['Frontend | Задачи', 'easy_frontend_task'],
         ['Frontend | Тестовые задания', 'easy_frontend_tests'],
@@ -191,7 +191,7 @@ channels_groups = {
     ],
     'HTML/CSS': [
         ['Frontend | Вопросы собесов', 'easy_javascript_ru'],
-        ['Frontend | Мемес', 'easy_frontend_memes'],
+        ['Frontend | Classroom', 'easy_frontend_memes'],
         ['Frontend | Удалёнка', 'easy_frontend_jobs'],
         ['Frontend | Задачи', 'easy_frontend_task'],
         ['Frontend | Тестовые задания', 'easy_frontend_tests'],
