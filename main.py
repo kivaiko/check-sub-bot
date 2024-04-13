@@ -144,7 +144,7 @@ async def check_channels(callback: types.CallbackQuery, callback_data: dict):
     if await check_sub(group, user_id):
         await callback.message.edit_text(f'✅ Готово! Нажми "Получить доступ"', reply_markup=success_keyboard())
     else:
-        await callback.answer('Подпишиcь на все каналы 🤷‍♂️', show_alert=True)
+        await callback.answer('Подпишиcь на все каналы 🤷‍♂️Если бот тупит, то его нужно обновить командой /start', show_alert=True)
     await callback.answer()
 
 
