@@ -29,6 +29,6 @@ def channels_keyboard():
 
 
 def success_keyboard():
-    inline_btn_1 = InlineKeyboardButton('Получить доступ', url='https://easyoffer.ru/4jfVYlHMjaNg1yESRMGLb08Mu3QmKMgZhBby1IFYy')
+    inline_btn_1 = InlineKeyboardButton('Получить доступ', url='https://easyoffer.ru/bajloircfpjfklwdyryrhwhyxjzoyv')
     inline_kb = InlineKeyboardMarkup(resize_keyboard=True).add(inline_btn_1)
     return inline_kb
