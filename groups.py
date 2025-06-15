@@ -118,7 +118,6 @@ channels_groups = {
         ['Golang | Вопросы собесов', 'easy_golang'],
         ['Golang | Тесты', 'easy_golang_tests'],
         ['Golang | LeetCode', 'easy_golang_task'],
-        ['Golang | Удалёнка', 'easy_golang_job'],
     ],
     'Ruby': [
         ['Ruby', 'easy_ruby'],
